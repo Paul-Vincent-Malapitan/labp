@@ -28,11 +28,6 @@
           </div>
         </form>
 
-        <div class="social-auth-links text-center">
-          <p>- OR -</p>
-          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using Facebook</a>
-          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using Google+</a>
-        </div><!-- /.social-auth-links -->
 
         <a href="#">I forgot my password</a><br>
         <a href="register.html" class="text-center">Register a new membership</a>
@@ -43,7 +38,7 @@
     <!-- jQuery 2.1.4 -->
     <script src="<?= base_url() ?>admin/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>admin/bootstrap/js/bootstrap.min.js"></script>
     <!-- iCheck -->
     <script src="<?= base_url() ?>admin/plugins/iCheck/icheck.min.js"></script>
     <script>
